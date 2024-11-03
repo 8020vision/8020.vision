@@ -16,7 +16,7 @@ function scrollToSection(sectionId: string) {
 export default function Hero() {
   return (
     <section className="flex flex-col items-center justify-center gap-4 py-20 min-h-[760px] md:min-h-[920px] px-4">
-      <div className="max-w-3xl text-center justify-center flex flex-col items-center gap-4">
+      <div className="max-w-4xl text-center justify-center flex flex-col items-center gap-4">
         <Logo iconOnly={true} />
         <div className="flex flex-col gap-4">
           <span className={clsx(title({ size: "lg" }))}>

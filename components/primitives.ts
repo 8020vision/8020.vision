@@ -49,7 +49,7 @@ export const title = tv({
 });
 
 export const subtitle = tv({
-  base: "w-full md:w-1/2 text-default-600 block max-w-full text-charcoal-gray dark:text-brushed-silver leading-5",
+  base: "w-full md:w-1/2 md:text-lg md:leading-6 text-default-600 block max-w-full text-slate-gray dark:text-brushed-silver leading-5",
   variants: {
     fullWidth: {
       true: "!w-full",
