@@ -1,3 +1,7 @@
+"use client";
+
+import React, { useState } from "react";
+
 import {
   Navbar as NextUINavbar,
   NavbarContent,
@@ -7,9 +11,7 @@ import {
   NavbarItem,
   NavbarMenuItem,
 } from "@nextui-org/navbar";
-
 import { Link } from "@nextui-org/link";
-
 import { link as linkStyles } from "@nextui-org/theme";
 import NextLink from "next/link";
 import clsx from "clsx";
@@ -20,8 +22,17 @@ import { ThemeSwitch } from "@/components/theme-switch";
 import Logo from "@/components/logo";
 
 export const Navbar = () => {
+  const [navMenuOpen, toggleNavMenuOpen] = useState(false);
+  const toggleNavMenu = () => {
+    toggleNavMenuOpen(!navMenuOpen);
+  };
+
   return (
-    <NextUINavbar maxWidth="2xl" className="fixed lg:py-4">
+    <NextUINavbar
+      maxWidth="2xl"
+      className="fixed lg:py-4"
+      isMenuOpen={navMenuOpen}
+    >
       <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
         <NavbarBrand as="li" className="gap-3 max-w-fit">
           <NextLink className="flex justify-start items-center gap-1" href="/">
@@ -66,23 +77,18 @@ export const Navbar = () => {
 
       <NavbarContent className="sm:hidden basis-1 pl-4" justify="end">
         <ThemeSwitch />
-        <NavbarMenuToggle />
+        <NavbarMenuToggle onPress={toggleNavMenu} />
       </NavbarContent>
 
       <NavbarMenu>
-        <div className="mx-4 mt-2 flex flex-col gap-2">
+        <div className="mt-2 flex flex-col gap-2">
           {siteConfig.navMenuItems.map((item, index) => (
             <NavbarMenuItem key={`${item}-${index}`}>
               <Link
-                color={
-                  index === 2
-                    ? "primary"
-                    : index === siteConfig.navMenuItems.length - 1
-                      ? "danger"
-                      : "foreground"
-                }
-                href="#"
+                className="dark:text-cool-mist-gray"
+                href={item.href}
                 size="lg"
+                onPress={toggleNavMenu}
               >
                 {item.label}
               </Link>

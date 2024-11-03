@@ -20,6 +20,7 @@ export default function Footer() {
             )}
             color="foreground"
             href={item.href}
+            key={item.href}
           >
             {item.label}
           </NextLink>

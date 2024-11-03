@@ -33,7 +33,7 @@ export default function Hero() {
         </div>
         <Button
           size={"lg"}
-          className="w-full md:max-w-[320px] mt-4"
+          className="w-full md:max-w-[320px] mt-4 bg-obsidian-black text-cool-mist-gray dark:bg-cool-mist-gray dark:text-obsidian-black"
           onPress={() => scrollToSection("contact")}
         >
           Contact
