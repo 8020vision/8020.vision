@@ -12,7 +12,7 @@ export default function Contact() {
       id="contact"
     >
       <div className="max-w-4xl mx-auto flex flex-col gap-20">
-        <div className="flex flex-col gap-6 sticky top-10 z-10">
+        <div className="flex flex-col gap-6 z-10">
           <span className={clsx(title({ size: "lg" }))}>Contact</span>
           <span className={clsx(subtitle())}>
             Thank you for reaching out to 80/20 Vision. We’re here to answer

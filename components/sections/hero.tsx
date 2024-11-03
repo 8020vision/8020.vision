@@ -1,13 +1,10 @@
 "use client";
 
 import React from "react";
-// import { Link } from "@nextui-org/link";
-// import { button as buttonStyles } from "@nextui-org/theme";
-// import { siteConfig } from "@/config/site";
-import { title, subtitle, textGradient } from "@/components/primitives";
+import { title, subtitle } from "@/components/primitives";
 import clsx from "clsx";
 import { Button } from "@nextui-org/button";
-import { IconOnDark, IconOnLight } from "../logos";
+import Logo from "@/components/logo";
 
 function scrollToSection(sectionId: string) {
   const section = document.getElementById(sectionId);
@@ -18,10 +15,9 @@ function scrollToSection(sectionId: string) {
 
 export default function Hero() {
   return (
-    // <section className="bg-[url('/backgrounds/sphere-bg-light.jpg')] dark:bg-[url('/backgrounds/sphere-bg-dark.jpg')] bg-cover bg-center flex flex-col items-center justify-center gap-4 py-8 md:py-10 min-h-[880px]">
     <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-20 min-h-[800px] xl:min-h-[920px]">
       <div className="max-w-4xl text-center justify-center flex flex-col items-center gap-6">
-        <IconOnDark />
+        <Logo iconOnly={true} />
         <span className={clsx(title({ size: "lg" }))}>
           Premium Design & Development Agency
         </span>
@@ -41,19 +37,6 @@ export default function Hero() {
           Contact
         </Button>
       </div>
-
-      {/* <div className="flex gap-3">
-        <Link
-          className={buttonStyles({
-            color: "primary",
-            variant: "shadow",
-            size: "lg",
-          })}
-          href={siteConfig.links.docs}
-        >
-          Documentation
-        </Link>
-      </div> */}
     </section>
   );
 }

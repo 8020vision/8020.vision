@@ -1,16 +1,17 @@
+"use client";
+
 import React from "react";
-// import { LogoDarkMode } from "@/components/icons";
-import { LogoOnDarkVertical, LogoOnLightVertical } from "../logos";
 import { siteConfig } from "@/config/site";
 import { Navbar, NavbarItem } from "@nextui-org/navbar";
 import NextLink from "next/link";
 import { link as linkStyles } from "@nextui-org/theme";
 import clsx from "clsx";
+import Logo from "@/components/logo";
 
 export default function Footer() {
   return (
-    <footer className="w-full flex flex-col items-center justify-center bg-obsidian-black py-10">
-      <LogoOnDarkVertical />
+    <footer className="w-full flex flex-col items-center justify-center bg-white dark:bg-obsidian-black py-20">
+      <Logo direction="vertical" />
       <Navbar>
         <ul className="lg:flex gap-4 mx-auto">
           {siteConfig.navItems.map((item) => (
@@ -29,7 +30,9 @@ export default function Footer() {
           ))}
         </ul>
       </Navbar>
-      <p className="text-ash-gray">80/20 VISION LLC</p>
+      <p className="text-ash-gray">
+        © {new Date().getFullYear()} 80/20 VISION LLC
+      </p>
     </footer>
   );
 }

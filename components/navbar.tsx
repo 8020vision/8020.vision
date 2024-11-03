@@ -17,21 +17,16 @@ import clsx from "clsx";
 
 import { siteConfig } from "@/config/site";
 import { ThemeSwitch } from "@/components/theme-switch";
-// import { useTheme } from "next-themes";
 import { TwitterIcon, GithubIcon, DiscordIcon } from "@/components/icons";
-import { LogoOnDark, LogoOnLight } from "./logos";
+import Logo from "@/components/logo";
 
 export const Navbar = () => {
-  // const { theme } = useTheme();
-  // console.log("theme", theme);
-
   return (
     <NextUINavbar maxWidth="2xl" className="fixed lg:py-4">
       <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
         <NavbarBrand as="li" className="gap-3 max-w-fit">
           <NextLink className="flex justify-start items-center gap-1" href="/">
-            <LogoOnDark />
-            {/* {theme === "light" ? <LogoLightMode /> : <LogoDarkMode />} */}
+            <Logo />
           </NextLink>
         </NavbarBrand>
       </NavbarContent>
