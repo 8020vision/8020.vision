@@ -23,8 +23,24 @@ import Logo from "@/components/logo";
 
 export const Navbar = () => {
   const [navMenuOpen, toggleNavMenuOpen] = useState(false);
+
   const toggleNavMenu = () => {
     toggleNavMenuOpen(!navMenuOpen);
+  };
+
+  function scrollToSection(sectionId: string) {
+    const id = sectionId.startsWith("#") ? sectionId.slice(1) : sectionId;
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    } else {
+      console.error(`Section with ID ${id} not found.`);
+    }
+  }
+
+  const handleLinkSelect = (sectionId: string) => {
+    toggleNavMenu();
+    scrollToSection(sectionId);
   };
 
   return (
@@ -48,16 +64,16 @@ export const Navbar = () => {
         <ul className="hidden lg:flex gap-4 justify-start ml-2">
           {siteConfig.navItems.map((item) => (
             <NavbarItem key={item.href}>
-              <NextLink
+              <Link
                 className={clsx(
                   linkStyles({ color: "foreground" }),
-                  "data-[active=true]:text-primary data-[active=true]:font-medium"
+                  "data-[active=true]:text-primary data-[active=true]:font-medium cursor-pointer"
                 )}
                 color="foreground"
-                href={item.href}
+                onClick={() => scrollToSection(item.href)}
               >
                 {item.label}
-              </NextLink>
+              </Link>
             </NavbarItem>
           ))}
         </ul>
@@ -86,9 +102,8 @@ export const Navbar = () => {
             <NavbarMenuItem key={`${item}-${index}`}>
               <Link
                 className="dark:text-cool-mist-gray"
-                href={item.href}
                 size="lg"
-                onPress={toggleNavMenu}
+                onPress={() => handleLinkSelect(item.href)}
               >
                 {item.label}
               </Link>
