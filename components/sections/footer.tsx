@@ -1,5 +1,6 @@
 import React from "react";
-import { LogoDarkMode } from "@/components/icons";
+// import { LogoDarkMode } from "@/components/icons";
+import { LogoOnDarkVertical, LogoOnLightVertical } from "../logos";
 import { siteConfig } from "@/config/site";
 import { Navbar, NavbarItem } from "@nextui-org/navbar";
 import NextLink from "next/link";
@@ -9,7 +10,7 @@ import clsx from "clsx";
 export default function Footer() {
   return (
     <footer className="w-full flex flex-col items-center justify-center bg-obsidian-black py-10">
-      <LogoDarkMode />
+      <LogoOnDarkVertical />
       <Navbar>
         <ul className="lg:flex gap-4 mx-auto">
           {siteConfig.navItems.map((item) => (

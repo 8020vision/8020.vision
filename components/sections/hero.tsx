@@ -7,6 +7,7 @@ import React from "react";
 import { title, subtitle, textGradient } from "@/components/primitives";
 import clsx from "clsx";
 import { Button } from "@nextui-org/button";
+import { IconOnDark, IconOnLight } from "../logos";
 
 function scrollToSection(sectionId: string) {
   const section = document.getElementById(sectionId);
@@ -18,8 +19,9 @@ function scrollToSection(sectionId: string) {
 export default function Hero() {
   return (
     // <section className="bg-[url('/backgrounds/sphere-bg-light.jpg')] dark:bg-[url('/backgrounds/sphere-bg-dark.jpg')] bg-cover bg-center flex flex-col items-center justify-center gap-4 py-8 md:py-10 min-h-[880px]">
-    <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10 min-h-[800px]">
+    <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-20 min-h-[800px] xl:min-h-[920px]">
       <div className="max-w-4xl text-center justify-center flex flex-col items-center gap-6">
+        <IconOnDark />
         <span className={clsx(title({ size: "lg" }))}>
           Premium Design & Development Agency
         </span>
