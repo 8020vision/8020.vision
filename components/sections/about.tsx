@@ -35,26 +35,13 @@ export default function About() {
             alt="Logo"
             width={320}
             height={320}
-            className="rounded-full w-40"
+            className="rounded-full w-40 lg:w-80"
           />
           <div className={subtitle({ class: "mt-4 text-center" })}>
             Josh Worley, Founder & CEO
           </div>
         </div>
       </div>
-
-      {/* <div className="flex gap-3">
-    <Link
-      className={buttonStyles({
-        color: "primary",
-        variant: "shadow",
-        size: "lg",
-      })}
-      href={siteConfig.links.docs}
-    >
-      Documentation
-    </Link>
-  </div> */}
     </section>
   );
 }

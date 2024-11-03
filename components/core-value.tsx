@@ -5,21 +5,26 @@ import {
   supertitle as supertitleClasses,
 } from "@/components/primitives";
 import clsx from "clsx";
+import Icon from "@/components/icon";
 
 export default function CoreValue({
   superTitle,
   title,
   description,
-  icon,
+  iconDark,
+  iconLight,
 }: {
   superTitle: string;
   title: string;
   description: string;
-  icon?: any;
+  iconDark: any;
+  iconLight: any;
 }) {
   return (
     <div className="flex grid-cols-[80px_1fr] gap-2 md:gap-5">
-      <div>{icon}</div>
+      <div className="w-[80px]">
+        <Icon iconDark={iconDark} iconLight={iconLight} />
+      </div>
       <div className="flex flex-col gap-2">
         <span className={clsx(supertitleClasses())}>{superTitle}</span>
         <span className={titleClasses({ size: "sm" })}>{title}</span>

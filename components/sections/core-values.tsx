@@ -19,14 +19,16 @@ export default function CoreValues() {
         </div>
         <div className="flex flex-col gap-16">
           {coreValues.map((value, i) => {
-            const { superTitle, title, description, iconDark } = value;
+            const { superTitle, title, description, iconDark, iconLight } =
+              value;
             return (
               <CoreValue
                 key={i}
                 superTitle={superTitle}
                 title={title}
                 description={description}
-                icon={iconDark}
+                iconDark={iconDark}
+                iconLight={iconLight}
               />
             );
           })}

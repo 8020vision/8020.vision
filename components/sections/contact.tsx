@@ -8,7 +8,7 @@ import { Button } from "@nextui-org/button";
 export default function Contact() {
   return (
     <section className="px-4 py-20 lg:py-40 flex flex-col gap-4" id="contact">
-      <div className="max-w-4xl mx-auto flex flex-col gap-10">
+      <div className="max-w-5xl mx-auto flex flex-col gap-10 bg-white dark:bg-obsidian-black px-4 md:px-8 py-8 rounded-3xl">
         <div className="flex flex-col gap-4 z-10">
           <span className={clsx(title({ size: "lg" }))}>Contact</span>
           <span className={clsx(subtitle())}>

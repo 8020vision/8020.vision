@@ -15,7 +15,7 @@ export default function ServiceCard({
   return (
     <Card
       isBlurred
-      className="border-none bg-background/60 dark:bg-default-100/50 max-w-[610px] py-5"
+      className="border-none bg-cool-mist-gray dark:bg-default-100/50 max-w-[610px] py-5"
       shadow="sm"
     >
       {/* <Image

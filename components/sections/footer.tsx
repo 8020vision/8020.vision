@@ -2,7 +2,6 @@
 
 import React from "react";
 import { siteConfig } from "@/config/site";
-import { Navbar, NavbarItem } from "@nextui-org/navbar";
 import NextLink from "next/link";
 import { link as linkStyles } from "@nextui-org/theme";
 import clsx from "clsx";
