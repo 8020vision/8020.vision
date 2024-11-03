@@ -198,56 +198,56 @@ export const BrainIconDark: React.FC<IconSvgProps> = ({ ...props }) => {
       <path
         d="M40.5 16.6667C40.5039 15.3334 40.2412 14.0129 39.7273 12.7827C39.2134 11.5525 38.4587 10.4374 37.5076 9.50316C36.5564 8.56889 35.4281 7.83425 34.1888 7.34244C32.9496 6.85064 31.6246 6.6116 30.2916 6.63938C28.9587 6.66716 27.6448 6.96121 26.4271 7.50423C25.2095 8.04724 24.1127 8.82826 23.2013 9.80135C22.29 10.7744 21.5824 11.92 21.1202 13.1705C20.658 14.4211 20.4505 15.7514 20.51 17.0833C18.5507 17.5871 16.7317 18.5302 15.1908 19.841C13.6499 21.1519 12.4275 22.7962 11.6161 24.6495C10.8048 26.5027 10.4259 28.5163 10.508 30.5377C10.5901 32.5591 11.1311 34.5353 12.09 36.3167C10.4039 37.6864 9.07808 39.4474 8.22779 41.4465C7.3775 43.4455 7.02852 45.622 7.21121 47.7866C7.39389 49.9513 8.10272 52.0385 9.27601 53.8667C10.4493 55.695 12.0515 57.2089 13.9433 58.2767C13.7097 60.0841 13.8491 61.9203 14.353 63.6717C14.8568 65.4232 15.7143 67.0528 16.8726 68.4599C18.0309 69.8669 19.4654 71.0216 21.0874 71.8525C22.7094 72.6835 24.4846 73.1731 26.3032 73.2911C28.1219 73.4091 29.9455 73.1531 31.6613 72.5387C33.3771 71.9244 34.9488 70.9648 36.2792 69.7192C37.6096 68.4736 38.6706 66.9686 39.3965 65.2969C40.1225 63.6252 40.498 61.8225 40.5 60V16.6667Z"
         stroke="url(#paint0_linear_208_183)"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M40.5 16.6667C40.4961 15.3334 40.7588 14.0129 41.2727 12.7827C41.7866 11.5525 42.5413 10.4374 43.4924 9.50316C44.4436 8.56889 45.5719 7.83425 46.8111 7.34244C48.0504 6.85064 49.3754 6.6116 50.7083 6.63938C52.0413 6.66716 53.3552 6.96121 54.5729 7.50423C55.7905 8.04724 56.8873 8.82826 57.7987 9.80135C58.71 10.7744 59.4176 11.92 59.8798 13.1705C60.342 14.4211 60.5495 15.7514 60.49 17.0833C62.4493 17.5871 64.2683 18.5302 65.8092 19.841C67.3501 21.1519 68.5725 22.7962 69.3839 24.6495C70.1952 26.5027 70.5741 28.5163 70.492 30.5377C70.4099 32.5591 69.8689 34.5353 68.91 36.3167C70.5961 37.6864 71.9219 39.4474 72.7722 41.4465C73.6225 43.4455 73.9715 45.622 73.7888 47.7866C73.6061 49.9513 72.8973 52.0385 71.724 53.8667C70.5507 55.695 68.9485 57.2089 67.0567 58.2767C67.2903 60.0841 67.1509 61.9203 66.647 63.6717C66.1432 65.4232 65.2857 67.0528 64.1274 68.4599C62.9691 69.8669 61.5346 71.0216 59.9126 71.8525C58.2906 72.6835 56.5154 73.1731 54.6967 73.2911C52.8781 73.4091 51.0545 73.1531 49.3387 72.5387C47.6229 71.9244 46.0512 70.9648 44.7208 69.7192C43.3904 68.4736 42.3294 66.9686 41.6035 65.2969C40.8775 63.6252 40.5019 61.8225 40.5 60V16.6667Z"
         stroke="url(#paint1_linear_208_183)"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M50.5 43.3333C47.7015 42.3489 45.2577 40.5567 43.4778 38.1834C41.6978 35.81 40.6615 32.9622 40.5 30C40.3385 32.9622 39.3022 35.81 37.5222 38.1834C35.7423 40.5567 33.2985 42.3489 30.5 43.3333"
         stroke="url(#paint2_linear_208_183)"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M59.1633 21.6666C59.9701 20.2685 60.4264 18.696 60.4933 17.0833"
         stroke="url(#paint3_linear_208_183)"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M20.51 17.0833C20.5759 18.6957 21.0311 20.2682 21.8367 21.6666"
         stroke="url(#paint4_linear_208_183)"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M12.09 36.32C12.6998 35.8234 13.3523 35.3816 14.04 35"
         stroke="url(#paint5_linear_208_183)"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M66.96 35C67.6477 35.3816 68.3002 35.8234 68.91 36.32"
         stroke="url(#paint6_linear_208_183)"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M20.5 60C18.2028 60.0011 15.9442 59.4086 13.9433 58.28"
         stroke="url(#paint7_linear_208_183)"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M67.0567 58.28C65.0558 59.4086 62.7972 60.0011 60.5 60"
         stroke="url(#paint8_linear_208_183)"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <defs>
         <linearGradient
@@ -258,8 +258,8 @@ export const BrainIconDark: React.FC<IconSvgProps> = ({ ...props }) => {
           y2="6.63721"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#919EB6" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#919EB6" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_208_183"
@@ -269,8 +269,8 @@ export const BrainIconDark: React.FC<IconSvgProps> = ({ ...props }) => {
           y2="6.63721"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#919EB6" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#919EB6" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_208_183"
@@ -280,8 +280,8 @@ export const BrainIconDark: React.FC<IconSvgProps> = ({ ...props }) => {
           y2="30"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#919EB6" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#919EB6" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_208_183"
@@ -291,8 +291,8 @@ export const BrainIconDark: React.FC<IconSvgProps> = ({ ...props }) => {
           y2="17.0833"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#919EB6" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#919EB6" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_208_183"
@@ -302,8 +302,8 @@ export const BrainIconDark: React.FC<IconSvgProps> = ({ ...props }) => {
           y2="17.0833"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#919EB6" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#919EB6" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_208_183"
@@ -313,8 +313,8 @@ export const BrainIconDark: React.FC<IconSvgProps> = ({ ...props }) => {
           y2="35"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#919EB6" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#919EB6" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_208_183"
@@ -324,8 +324,8 @@ export const BrainIconDark: React.FC<IconSvgProps> = ({ ...props }) => {
           y2="35"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#919EB6" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#919EB6" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_208_183"
@@ -335,8 +335,8 @@ export const BrainIconDark: React.FC<IconSvgProps> = ({ ...props }) => {
           y2="58.28"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#919EB6" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#919EB6" />
         </linearGradient>
         <linearGradient
           id="paint8_linear_208_183"
@@ -346,8 +346,8 @@ export const BrainIconDark: React.FC<IconSvgProps> = ({ ...props }) => {
           y2="58.28"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#919EB6" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#919EB6" />
         </linearGradient>
       </defs>
     </svg>
@@ -366,20 +366,20 @@ export const FlexIconDark: React.FC<IconSvgProps> = ({ ...props }) => {
       <path
         d="M41.8633 43.3901C43.3827 39.8681 46.0705 36.978 49.4731 35.2074C52.8757 33.4367 56.7849 32.8939 60.5412 33.6706C64.2975 34.4472 67.671 36.4957 70.0925 39.4705C72.5139 42.4453 73.8352 46.1643 73.8333 50.0001C73.8333 62.8868 60.5 73.3334 43.8333 73.3334C30.2433 73.3334 16.6567 70.6001 9.26333 65.1268C7.84333 64.0734 7.16 62.3534 7.19667 60.5868C7.56 42.4101 9.25667 6.66675 33.8333 6.66675C36.4855 6.66675 39.029 7.72032 40.9044 9.59568C42.7798 11.471 43.8333 14.0146 43.8333 16.6667C43.8333 18.4349 43.131 20.1306 41.8807 21.3808C40.6305 22.631 38.9348 23.3334 37.1667 23.3334C33.4833 23.3334 31.7 21.8534 30.5 20.0001"
         stroke="url(#paint0_linear_208_174)"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M50.5 46.6666C48.4883 45.157 46.161 44.1222 43.6926 43.6399C41.2241 43.1576 38.6785 43.2402 36.2465 43.8815C33.8145 44.5229 31.5592 45.7063 29.6496 47.3432C27.74 48.9801 26.2257 51.0279 25.22 53.3333"
         stroke="url(#paint1_linear_208_174)"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M33.7133 22.75C27.23 26.59 32.1667 43.3333 27.1667 50"
         stroke="url(#paint2_linear_208_174)"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <defs>
         <linearGradient
@@ -390,8 +390,8 @@ export const FlexIconDark: React.FC<IconSvgProps> = ({ ...props }) => {
           y2="6.66675"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#919EB6" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#919EB6" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_208_174"
@@ -401,8 +401,8 @@ export const FlexIconDark: React.FC<IconSvgProps> = ({ ...props }) => {
           y2="43.3306"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#919EB6" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#919EB6" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_208_174"
@@ -412,8 +412,8 @@ export const FlexIconDark: React.FC<IconSvgProps> = ({ ...props }) => {
           y2="22.75"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#919EB6" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#919EB6" />
         </linearGradient>
       </defs>
     </svg>
@@ -432,26 +432,26 @@ export const FocusEyeIconDark: React.FC<IconSvgProps> = ({ ...props }) => {
       <path
         d="M70.5 23.3333V16.6667C70.5 14.8986 69.7976 13.2029 68.5474 11.9526C67.2971 10.7024 65.6014 10 63.8333 10H17.1667C15.3986 10 13.7029 10.7024 12.4526 11.9526C11.2024 13.2029 10.5 14.8986 10.5 16.6667V23.3333"
         stroke="url(#paint0_linear_208_105)"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M63.6467 41.087C63.8956 40.3748 63.8956 39.5992 63.6467 38.887C61.77 34.2884 58.566 30.3531 54.4435 27.5829C50.321 24.8127 45.4668 23.3333 40.5 23.3333C35.5332 23.3333 30.679 24.8127 26.5565 27.5829C22.434 30.3531 19.23 34.2884 17.3533 38.887C17.1044 39.5992 17.1044 40.3748 17.3533 41.087C19.23 45.6856 22.434 49.6209 26.5565 52.3911C30.679 55.1613 35.5332 56.6407 40.5 56.6407C45.4668 56.6407 50.321 55.1613 54.4435 52.3911C58.566 49.6209 61.77 45.6856 63.6467 41.087Z"
         stroke="url(#paint1_linear_208_105)"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M70.5 56.6409V63.3075C70.5 65.0756 69.7976 66.7713 68.5474 68.0216C67.2971 69.2718 65.6014 69.9742 63.8333 69.9742H17.1667C15.3986 69.9742 13.7029 69.2718 12.4526 68.0216C11.2024 66.7713 10.5 65.0756 10.5 63.3075V56.6409"
         stroke="url(#paint2_linear_208_105)"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M40.5 43.3073C42.341 43.3073 43.8333 41.8149 43.8333 39.974C43.8333 38.133 42.341 36.6406 40.5 36.6406C38.6591 36.6406 37.1667 38.133 37.1667 39.974C37.1667 41.8149 38.6591 43.3073 40.5 43.3073Z"
         stroke="url(#paint3_linear_208_105)"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <defs>
         <linearGradient
@@ -462,8 +462,8 @@ export const FocusEyeIconDark: React.FC<IconSvgProps> = ({ ...props }) => {
           y2="10"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#919EB6" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#919EB6" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_208_105"
@@ -473,8 +473,8 @@ export const FocusEyeIconDark: React.FC<IconSvgProps> = ({ ...props }) => {
           y2="23.3333"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#919EB6" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#919EB6" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_208_105"
@@ -484,8 +484,8 @@ export const FocusEyeIconDark: React.FC<IconSvgProps> = ({ ...props }) => {
           y2="56.6409"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#919EB6" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#919EB6" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_208_105"
@@ -495,8 +495,8 @@ export const FocusEyeIconDark: React.FC<IconSvgProps> = ({ ...props }) => {
           y2="36.6406"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#919EB6" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#919EB6" />
         </linearGradient>
       </defs>
     </svg>
@@ -515,32 +515,32 @@ export const FocusIconDark: React.FC<IconSvgProps> = ({ ...props }) => {
       <path
         d="M40.5 50C46.0228 50 50.5 45.5228 50.5 40C50.5 34.4772 46.0228 30 40.5 30C34.9772 30 30.5 34.4772 30.5 40C30.5 45.5228 34.9772 50 40.5 50Z"
         stroke="url(#paint0_linear_208_62)"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M10.5 23.3333V16.6667C10.5 14.8986 11.2024 13.2029 12.4526 11.9526C13.7029 10.7024 15.3986 10 17.1667 10H23.8333"
         stroke="url(#paint1_linear_208_62)"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M57.1667 10H63.8333C65.6014 10 67.2971 10.7024 68.5474 11.9526C69.7976 13.2029 70.5 14.8986 70.5 16.6667V23.3333"
         stroke="url(#paint2_linear_208_62)"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M70.5 56.6667V63.3334C70.5 65.1015 69.7976 66.7972 68.5474 68.0475C67.2971 69.2977 65.6014 70.0001 63.8333 70.0001H57.1667"
         stroke="url(#paint3_linear_208_62)"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M23.8333 70.0001H17.1667C15.3986 70.0001 13.7029 69.2977 12.4526 68.0475C11.2024 66.7972 10.5 65.1015 10.5 63.3334V56.6667"
         stroke="url(#paint4_linear_208_62)"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <defs>
         <linearGradient
@@ -551,8 +551,8 @@ export const FocusIconDark: React.FC<IconSvgProps> = ({ ...props }) => {
           y2="30"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#919EB6" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#919EB6" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_208_62"
@@ -562,8 +562,8 @@ export const FocusIconDark: React.FC<IconSvgProps> = ({ ...props }) => {
           y2="10"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#919EB6" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#919EB6" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_208_62"
@@ -573,8 +573,8 @@ export const FocusIconDark: React.FC<IconSvgProps> = ({ ...props }) => {
           y2="10"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#919EB6" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#919EB6" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_208_62"
@@ -584,8 +584,8 @@ export const FocusIconDark: React.FC<IconSvgProps> = ({ ...props }) => {
           y2="56.6667"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#919EB6" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#919EB6" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_208_62"
@@ -595,8 +595,8 @@ export const FocusIconDark: React.FC<IconSvgProps> = ({ ...props }) => {
           y2="56.6667"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#919EB6" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#919EB6" />
         </linearGradient>
       </defs>
     </svg>
@@ -615,20 +615,20 @@ export const PeopleIconDark: React.FC<IconSvgProps> = ({ ...props }) => {
       <path
         d="M60.5 70.0002C60.5 62.9277 57.6905 56.145 52.6895 51.144C47.6885 46.143 40.9058 43.3335 33.8333 43.3335C26.7609 43.3335 19.9781 46.143 14.9772 51.144C9.97619 56.145 7.16667 62.9277 7.16667 70.0002"
         stroke="url(#paint0_linear_208_198)"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M33.8333 43.3333C43.0381 43.3333 50.5 35.8714 50.5 26.6667C50.5 17.4619 43.0381 10 33.8333 10C24.6286 10 17.1667 17.4619 17.1667 26.6667C17.1667 35.8714 24.6286 43.3333 33.8333 43.3333Z"
         stroke="url(#paint1_linear_208_198)"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M73.8333 66.6668C73.8333 55.4335 67.1667 45.0002 60.5 40.0002C62.6914 38.3561 64.4437 36.1971 65.6019 33.7144C66.7601 31.2317 67.2884 28.5017 67.1401 25.7662C66.9918 23.0306 66.1714 20.3738 64.7516 18.0308C63.3318 15.6879 61.3563 13.731 59 12.3335"
         stroke="url(#paint2_linear_208_198)"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <defs>
         <linearGradient
@@ -639,8 +639,8 @@ export const PeopleIconDark: React.FC<IconSvgProps> = ({ ...props }) => {
           y2="43.3335"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#919EB6" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#919EB6" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_208_198"
@@ -650,8 +650,8 @@ export const PeopleIconDark: React.FC<IconSvgProps> = ({ ...props }) => {
           y2="10"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#919EB6" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#919EB6" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_208_198"
@@ -661,8 +661,8 @@ export const PeopleIconDark: React.FC<IconSvgProps> = ({ ...props }) => {
           y2="12.3335"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#919EB6" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#919EB6" />
         </linearGradient>
       </defs>
     </svg>
@@ -681,14 +681,14 @@ export const PyramidIconDark: React.FC<IconSvgProps> = ({ ...props }) => {
       <path
         d="M8.83333 56.2667C8.43743 56.0356 8.09345 55.7253 7.8229 55.3552C7.55235 54.9851 7.36104 54.5632 7.26093 54.1159C7.16082 53.6685 7.15407 53.2053 7.24108 52.7552C7.3281 52.3051 7.50703 51.8778 7.76667 51.5L37.7667 8.10002C38.0739 7.65992 38.4828 7.30051 38.9587 7.05233C39.4345 6.80416 39.9633 6.67456 40.5 6.67456C41.0367 6.67456 41.5655 6.80416 42.0414 7.05233C42.5172 7.30051 42.9261 7.65992 43.2333 8.10002L73.2333 51.4667C73.4986 51.8455 73.6821 52.2754 73.7721 52.729C73.8622 53.1826 73.857 53.65 73.7566 54.1015C73.6563 54.5529 73.4631 54.9786 73.1894 55.3513C72.9157 55.7241 72.5674 56.0358 72.1667 56.2667L43.8 72.4667C42.7945 73.0395 41.6572 73.3407 40.5 73.3407C39.3428 73.3407 38.2055 73.0395 37.2 72.4667L8.83333 56.2667Z"
         stroke="url(#paint0_linear_208_75)"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M40.5 6.66675V73.3334"
         stroke="url(#paint1_linear_208_75)"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <defs>
         <linearGradient
@@ -699,8 +699,8 @@ export const PyramidIconDark: React.FC<IconSvgProps> = ({ ...props }) => {
           y2="6.67456"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#919EB6" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#919EB6" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_208_75"
@@ -710,8 +710,8 @@ export const PyramidIconDark: React.FC<IconSvgProps> = ({ ...props }) => {
           y2="6.66675"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#919EB6" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#919EB6" />
         </linearGradient>
       </defs>
     </svg>

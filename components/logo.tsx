@@ -15,9 +15,11 @@ import {
 export default function Logo({
   direction = "horizontal",
   iconOnly = false,
+  className,
 }: {
   direction?: "horizontal" | "vertical";
   iconOnly?: boolean;
+  className?: string;
 }) {
   const { theme } = useTheme();
 
@@ -29,14 +31,14 @@ export default function Logo({
     <>
       {theme === "light" ? (
         direction === "horizontal" ? (
-          <LogoOnLight />
+          <LogoOnLight className={className} />
         ) : (
-          <LogoOnLightVertical />
+          <LogoOnLightVertical className={className} />
         )
       ) : direction === "horizontal" ? (
-        <LogoOnDark />
+        <LogoOnDark className={className} />
       ) : (
-        <LogoOnDarkVertical />
+        <LogoOnDarkVertical className={className} />
       )}
     </>
   );

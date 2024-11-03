@@ -15,7 +15,7 @@ export const IconOnDark: React.FC<IconSvgProps> = ({
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <g clip-path="url(#clip0_216_21901)">
+    <g clipPath="url(#clip0_216_21901)">
       <path
         d="M130.151 39.8548C124.254 51.556 115.479 61.4602 104.674 68.5842C100.591 71.2776 96.2822 73.5249 91.8098 75.3095C102.12 67.1569 108.77 54.3073 108.77 39.8548C108.77 25.4023 102.12 12.5526 91.8098 4.39999C96.2822 6.18461 100.591 8.4319 104.674 11.1233C115.479 18.2494 124.254 28.1536 130.151 39.8548Z"
         fill="white"
@@ -39,8 +39,8 @@ export const IconOnDark: React.FC<IconSvgProps> = ({
         gradientUnits="userSpaceOnUse"
         gradientTransform="translate(66.0352 40) rotate(90) scale(40 38.7005)"
       >
-        <stop offset="0.645" stop-color="#D9D9D9" />
-        <stop offset="1" stop-color="#404960" />
+        <stop offset="0.645" stopColor="#D9D9D9" />
+        <stop offset="1" stopColor="#404960" />
       </radialGradient>
       <clipPath id="clip0_216_21901">
         <rect
@@ -67,7 +67,7 @@ export const IconOnLight: React.FC<IconSvgProps> = ({
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <g clip-path="url(#clip0_230_22218)">
+    <g clipPath="url(#clip0_230_22218)">
       <path
         d="M130.152 39.8548C124.254 51.556 115.479 61.4602 104.674 68.5842C100.591 71.2776 96.2823 73.5249 91.8098 75.3095C102.12 67.1569 108.77 54.3073 108.77 39.8548C108.77 25.4023 102.12 12.5526 91.8098 4.39999C96.2823 6.18461 100.591 8.4319 104.674 11.1233C115.479 18.2494 124.254 28.1536 130.152 39.8548Z"
         fill="#2B2B2B"
@@ -109,8 +109,8 @@ export const IconOnLight: React.FC<IconSvgProps> = ({
         gradientUnits="userSpaceOnUse"
         gradientTransform="translate(66.0352 40) rotate(90) scale(40 38.7005)"
       >
-        <stop offset="0.645" stop-color="#D9D9D9" />
-        <stop offset="1" stop-color="#404960" />
+        <stop offset="0.645" stopColor="#D9D9D9" />
+        <stop offset="1" stopColor="#404960" />
       </radialGradient>
       <clipPath id="clip0_230_22218">
         <rect
@@ -137,7 +137,7 @@ export const LogoOnDarkVertical: React.FC<IconSvgProps> = ({
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <g clip-path="url(#clip0_207_1685)">
+    <g clipPath="url(#clip0_207_1685)">
       <path
         d="M191.721 31.8838C187.003 41.2448 179.983 49.1682 171.339 54.8674C168.073 57.0221 164.626 58.82 161.048 60.2476C169.296 53.7255 174.616 43.4458 174.616 31.8838C174.616 20.3218 169.296 10.0421 161.048 3.52002C164.626 4.94771 168.073 6.74555 171.339 8.89865C179.983 14.5995 187.003 22.5229 191.721 31.8838Z"
         fill="white"
@@ -199,8 +199,8 @@ export const LogoOnDarkVertical: React.FC<IconSvgProps> = ({
         gradientUnits="userSpaceOnUse"
         gradientTransform="translate(140.428 32) rotate(90) scale(32 30.9604)"
       >
-        <stop offset="0.645" stop-color="#D9D9D9" />
-        <stop offset="1" stop-color="#404960" />
+        <stop offset="0.645" stopColor="#D9D9D9" />
+        <stop offset="1" stopColor="#404960" />
       </radialGradient>
       <clipPath id="clip0_207_1685">
         <rect
@@ -227,7 +227,7 @@ export const LogoOnLightVertical: React.FC<IconSvgProps> = ({
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <g clip-path="url(#clip0_230_22390)">
+    <g clipPath="url(#clip0_230_22390)">
       <path
         d="M191.721 31.8838C187.003 41.2448 179.983 49.1682 171.339 54.8674C168.073 57.0221 164.626 58.82 161.048 60.2476C169.296 53.7255 174.616 43.4458 174.616 31.8838C174.616 20.3218 169.296 10.0421 161.048 3.52002C164.626 4.94771 168.073 6.74555 171.339 8.89865C179.983 14.5995 187.003 22.5229 191.721 31.8838Z"
         fill="#2B2B2B"
@@ -313,8 +313,8 @@ export const LogoOnLightVertical: React.FC<IconSvgProps> = ({
         gradientUnits="userSpaceOnUse"
         gradientTransform="translate(140.428 32) rotate(90) scale(32 30.9604)"
       >
-        <stop offset="0.645" stop-color="#D9D9D9" />
-        <stop offset="1" stop-color="#404960" />
+        <stop offset="0.645" stopColor="#D9D9D9" />
+        <stop offset="1" stopColor="#404960" />
       </radialGradient>
       <clipPath id="clip0_230_22390">
         <rect
@@ -332,6 +332,7 @@ export const LogoOnDark: React.FC<IconSvgProps> = ({
   size = 36,
   width,
   height,
+  className,
   ...props
 }) => (
   <svg
@@ -340,6 +341,7 @@ export const LogoOnDark: React.FC<IconSvgProps> = ({
     viewBox="0 0 309 47"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
+    className={className}
   >
     <path
       d="M307.518 7H308.478V39.496H301.758L292.494 12.664V39.496H291.534V10.36L290.382 7H297.054L307.518 36.712V7Z"
@@ -379,7 +381,7 @@ export const LogoOnDark: React.FC<IconSvgProps> = ({
       d="M97.296 22.216C99.888 24.424 102.48 26.68 102.48 31.72C102.48 36.616 100.272 40.504 93.552 40.504C88.944 40.504 85.632 37.24 85.632 32.776C85.632 27.688 87.744 25.528 90.384 24.376C88.224 22.504 86.304 20.344 86.304 15.64C86.304 10.072 89.472 7 94.656 7C99.792 7 101.808 10.264 101.808 14.2C101.808 18.904 99.36 21.304 97.296 22.216ZM94.608 7.864C92.928 7.864 92.16 10.12 92.256 13.72C92.352 17.512 94.224 19.576 96.384 21.4C97.008 20.2 97.248 18.232 97.248 14.008C97.248 10.696 96.624 7.864 94.608 7.864ZM93.6 39.64C94.848 39.64 96.192 38.632 96.192 34.264C96.192 29.224 93.792 27.256 91.392 25.24V25.288C91.296 25.096 90.672 27.112 90.672 32.776C90.672 38.104 92.112 39.64 93.6 39.64Z"
       fill="white"
     />
-    <g clip-path="url(#clip0_230_22725)">
+    <g clipPath="url(#clip0_230_22725)">
       <path
         d="M71.1983 23.9201C67.9548 30.3558 63.1285 35.8031 57.1855 39.7213C54.9399 41.2027 52.5702 42.4387 50.1104 43.4203C55.7808 38.9363 59.4387 31.869 59.4387 23.9201C59.4387 15.9713 55.7808 8.90395 50.1104 4.42C52.5702 5.40154 54.9399 6.63755 57.1855 8.11781C63.1285 12.0371 67.9548 17.4845 71.1983 23.9201Z"
         fill="white"
@@ -403,8 +405,8 @@ export const LogoOnDark: React.FC<IconSvgProps> = ({
         gradientUnits="userSpaceOnUse"
         gradientTransform="translate(35.75 24) rotate(90) scale(21.0833 21.0833)"
       >
-        <stop offset="0.645" stop-color="#D9D9D9" />
-        <stop offset="1" stop-color="#404960" />
+        <stop offset="0.645" stopColor="#D9D9D9" />
+        <stop offset="1" stopColor="#404960" />
       </radialGradient>
       <clipPath id="clip0_230_22725">
         <rect
@@ -422,6 +424,7 @@ export const LogoOnLight: React.FC<IconSvgProps> = ({
   size = 36,
   width,
   height,
+  className,
   ...props
 }) => (
   <svg
@@ -430,6 +433,7 @@ export const LogoOnLight: React.FC<IconSvgProps> = ({
     viewBox="0 0 309 47"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
+    className={className}
   >
     <path
       d="M307.518 7H308.478V39.496H301.758L292.494 12.664V39.496H291.534V10.36L290.382 7H297.054L307.518 36.712V7Z"
@@ -469,7 +473,7 @@ export const LogoOnLight: React.FC<IconSvgProps> = ({
       d="M97.2961 22.216C99.8881 24.424 102.48 26.68 102.48 31.72C102.48 36.616 100.272 40.504 93.5521 40.504C88.9441 40.504 85.6321 37.24 85.6321 32.776C85.6321 27.688 87.7441 25.528 90.3841 24.376C88.2241 22.504 86.3041 20.344 86.3041 15.64C86.3041 10.072 89.4721 7 94.6561 7C99.7921 7 101.808 10.264 101.808 14.2C101.808 18.904 99.3601 21.304 97.2961 22.216ZM94.6081 7.864C92.9281 7.864 92.1601 10.12 92.2561 13.72C92.3521 17.512 94.2241 19.576 96.3841 21.4C97.0081 20.2 97.2481 18.232 97.2481 14.008C97.2481 10.696 96.6241 7.864 94.6081 7.864ZM93.6001 39.64C94.8481 39.64 96.1921 38.632 96.1921 34.264C96.1921 29.224 93.7921 27.256 91.3921 25.24V25.288C91.2961 25.096 90.6721 27.112 90.6721 32.776C90.6721 38.104 92.1121 39.64 93.6001 39.64Z"
       fill="#0A0A0A"
     />
-    <g clip-path="url(#clip0_230_22753)">
+    <g clipPath="url(#clip0_230_22753)">
       <path
         d="M71.1983 23.9201C67.9548 30.3558 63.1285 35.8031 57.1855 39.7213C54.9399 41.2027 52.5702 42.4387 50.1104 43.4203C55.7808 38.9363 59.4387 31.869 59.4387 23.9201C59.4387 15.9713 55.7808 8.90395 50.1104 4.42C52.5702 5.40154 54.9399 6.63755 57.1855 8.11781C63.1285 12.0371 67.9548 17.4845 71.1983 23.9201Z"
         fill="#0A0A0A"
@@ -493,8 +497,8 @@ export const LogoOnLight: React.FC<IconSvgProps> = ({
         gradientUnits="userSpaceOnUse"
         gradientTransform="translate(35.75 24) rotate(90) scale(21.0833 21.0833)"
       >
-        <stop offset="0.645" stop-color="#D9D9D9" />
-        <stop offset="1" stop-color="#404960" />
+        <stop offset="0.645" stopColor="#D9D9D9" />
+        <stop offset="1" stopColor="#404960" />
       </radialGradient>
       <clipPath id="clip0_230_22753">
         <rect

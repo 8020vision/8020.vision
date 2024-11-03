@@ -1,17 +1,17 @@
 import React from "react";
 import { title, subtitle } from "@/components/primitives";
 import clsx from "clsx";
-import ServiceCard from "@/components/serviceCard";
+import ServiceCard from "@/components/service-card";
 import { services } from "@/config/services";
 
 export default function Services() {
   return (
     <section
-      className="lg:py-40 flex flex-col gap-4 py-8 md:py-10 bg-white dark:bg-obsidian-black"
+      className="lg:py-40 flex flex-col gap-4 py-20 bg-white dark:bg-obsidian-black px-4"
       id="services"
     >
-      <div className=" max-w-8xl mx-auto flex flex-col gap-16">
-        <div className="flex flex-col gap-6">
+      <div className="max-w-8xl mx-auto flex flex-col gap-16">
+        <div className="flex flex-col gap-3 md:*:gap-6">
           <span className={clsx(title({ size: "lg" }))}>Services</span>
           <span className={clsx(subtitle())}>
             We deliver strategic solutions that blend creative design with
@@ -21,7 +21,7 @@ export default function Services() {
             strategy.
           </span>
         </div>
-        <div className="lg:grid lg:grid-cols-[1fr_1fr_1fr] lg:gap-10 max-w-8xl mx-auto">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-10 max-w-8xl mx-auto">
           {services.map((service, i) => {
             const { name, details, image } = service;
             return (

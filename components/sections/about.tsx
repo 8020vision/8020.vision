@@ -1,13 +1,14 @@
 import React from "react";
-import { title, subtitle, textGradient } from "@/components/primitives";
+import { title, subtitle, supertitle } from "@/components/primitives";
 import clsx from "clsx";
 import Image from "next/image";
 
 export default function About() {
   return (
-    <section className="lg:py-40" id="about">
-      <div className="lg:grid lg:grid-cols-[2fr_1fr] lg:gap-10 max-w-8xl mx-auto">
+    <section className="py-20 px-4 lg:py-40" id="about">
+      <div className="grid lg:grid-cols-[2fr_1fr] gap-10 max-w-8xl mx-auto">
         <div className="inline-block justify-center">
+          <span className={clsx(supertitle(), "mb-5")}>About</span>
           <span className={clsx(title({ size: "lg" }))}>
             You focus on growing your business. We take care of the design and
             development that powers it.
@@ -34,7 +35,7 @@ export default function About() {
             alt="Logo"
             width={320}
             height={320}
-            className="rounded-full"
+            className="rounded-full w-40"
           />
           <div className={subtitle({ class: "mt-4 text-center" })}>
             Josh Worley, Founder & CEO

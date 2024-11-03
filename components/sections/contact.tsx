@@ -7,12 +7,9 @@ import { Button } from "@nextui-org/button";
 
 export default function Contact() {
   return (
-    <section
-      className="lg:py-40 flex flex-col gap-4 py-8 md:py-10"
-      id="contact"
-    >
-      <div className="max-w-4xl mx-auto flex flex-col gap-20">
-        <div className="flex flex-col gap-6 z-10">
+    <section className="px-4 py-20 lg:py-40 flex flex-col gap-4" id="contact">
+      <div className="max-w-4xl mx-auto flex flex-col gap-10">
+        <div className="flex flex-col gap-4 z-10">
           <span className={clsx(title({ size: "lg" }))}>Contact</span>
           <span className={clsx(subtitle())}>
             Thank you for reaching out to 80/20 Vision. We’re here to answer
@@ -21,7 +18,7 @@ export default function Contact() {
             to you promptly.
           </span>
         </div>
-        <div className="md:flex md:grid-cols-[320px_1fr] gap-10">
+        <div className="flex flex-col md:flex-row md:grid-cols-[320px_1fr] gap-10">
           <div className="w-full flex flex-col gap-10">
             <Input type="text" label="Name" isRequired />
             <Input type="email" label="Email" isRequired />
@@ -30,7 +27,7 @@ export default function Contact() {
         </div>
         <Button
           size={"lg"}
-          className="w-full max-w-[320px] mx-auto"
+          className="w-full md:max-w-[320px] mx-auto"
           // onPress={() => scrollToSection("contact")}
         >
           Submit

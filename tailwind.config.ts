@@ -43,7 +43,7 @@ module.exports = {
       },
       backgroundImage: {
         "gradient-dark": "linear-gradient(180deg, #0A0A0A 0%, #1A1E2E 100%)",
-        "gradient-light": "linear-gradient(180deg, #FFF 0%, #ECE7DF 100%)",
+        "gradient-light": "linear-gradient(180deg, #FFF 0%, #E8E8E8 100%)",
       },
     },
   },

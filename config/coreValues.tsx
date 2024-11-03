@@ -20,28 +20,28 @@ export const coreValues = [
     superTitle: "IMPACT",
     title: "Future-proof",
     description:
-      "Work is fueled by a future-oriented mindset. We leverage technology and smart design to help our clients grow exponentially.",
+      "Work is fueled by a future-oriented mindset. We leverage technology and smart design to help our partners grow exponentially.",
     iconDark: <PyramidIconDark />,
   },
   {
     superTitle: "FOCUS",
     title: "Precision and clarity",
     description:
-      "Clear thinking leads to smart decisions. We believe in transparency, simplicity, and focus, helping clients cut through complexity to reach their goals efficiently.",
+      "Clear thinking leads to smart decisions. We believe in transparency, simplicity, and focus, helping partners cut through complexity to reach their goals efficiently.",
     iconDark: <FocusEyeIconDark />,
   },
   {
     superTitle: "STRATEGY",
     title: "Strategic empowerment",
     description:
-      "Our goal is not only to deliver solutions but to empower clients with tools, strategies, and insights that foster independence and long-term success.",
+      "Our goal is not only to deliver solutions but to empower partners with tools, strategies, and insights that foster independence and long-term success.",
     iconDark: <FlexIconDark />,
   },
   {
     superTitle: "GROWTH",
     title: "Continuous improvement",
     description:
-      "We are committed to learning, adapting, and improving every day—just like the clients we serve.",
+      "We are committed to learning, adapting, and improving every day—just like the partners we serve.",
     iconDark: <BrainIconDark />,
   },
   {
