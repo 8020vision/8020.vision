@@ -1,7 +1,7 @@
 export default {
-  title: "80/20 Vision | Premium Design & Development Agency",
+  title: "80/20 VISION | Premium Design & Development Agency",
   description:
-    "At 80/20 Vision, we build innovative design and development solutions for startups.",
+    "At 80/20 VISION, we build innovative design and development solutions for startups.",
   openGraph: {
     type: "website",
     locale: "en_US",
