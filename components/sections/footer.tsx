@@ -10,7 +10,7 @@ import Logo from "@/components/logo";
 export default function Footer() {
   return (
     <footer className="w-full flex flex-col items-center gap-6 justify-center bg-white dark:bg-obsidian-black pt-20 pb-8">
-      <Logo direction="vertical" />
+      <Logo />
       <ul className="flex flex-col items-center text-center gap-2 mx-auto">
         {siteConfig.navItems.map((item) => (
           <NextLink

@@ -4,7 +4,6 @@ import React from "react";
 import { title, subtitle } from "@/components/primitives";
 import clsx from "clsx";
 import { Button } from "@nextui-org/button";
-import Logo from "@/components/logo";
 
 function scrollToSection(sectionId: string) {
   const section = document.getElementById(sectionId);
@@ -17,10 +16,9 @@ export default function Hero() {
   return (
     <section className="flex flex-col items-center justify-center gap-4 py-20 min-h-[760px] md:min-h-[920px] px-4">
       <div className="max-w-4xl text-center justify-center flex flex-col items-center gap-4">
-        <Logo iconOnly={true} />
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-8">
           <span className={clsx(title({ size: "lg" }))}>
-            Premium Design & Development Agency
+            Design & Development
           </span>
           <div className={subtitle()}>
             At 80/20 Vision we focus on what matters to build future-proof
