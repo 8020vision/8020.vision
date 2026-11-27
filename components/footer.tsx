@@ -21,7 +21,6 @@ const columns = [
       { label: "Sound", href: "/sound" },
     ],
   },
-  { title: "Follow", links: siteConfig.social },
 ];
 
 /** "Web / Footer" and "Web / Mobile / Footer". */

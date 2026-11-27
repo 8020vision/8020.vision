@@ -11,12 +11,6 @@ export const siteConfig = {
     { label: "Sound", href: "/sound" },
     { label: "About", href: "/about" },
   ],
-  // TODO: replace with the real profile URLs.
-  social: [
-    { label: "Instagram", href: "https://www.instagram.com/" },
-    { label: "LinkedIn", href: "https://www.linkedin.com/" },
-    { label: "SoundCloud", href: "https://soundcloud.com/" },
-  ],
 };
 
 export type Discipline = "Design" | "Software" | "Events" | "Music";

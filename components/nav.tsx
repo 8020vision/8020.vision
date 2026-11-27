@@ -28,7 +28,7 @@ export function Nav() {
     <header className="absolute inset-x-0 top-0 z-30">
       <nav className="mx-auto flex max-w-page items-center justify-between px-5 py-[18px] md:px-10 lg:px-20 lg:py-6">
         <Link aria-label="80/20 VISION home" className="relative z-40" href="/">
-          <Lockup className="text-[10.08px] lg:text-[12.24px]" />
+          <Lockup className="text-[15.12px] lg:text-[18.36px]" />
         </Link>
 
         <div className="hidden items-center gap-9 lg:flex">
