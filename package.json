@@ -1,5 +1,5 @@
 {
-	"name": "next-app-template",
+	"name": "8020-vision",
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
@@ -9,34 +9,12 @@
 		"lint": "eslint . --ext .ts,.tsx -c .eslintrc.json --fix"
 	},
 	"dependencies": {
-		"@nextui-org/button": "^2.2.8",
-		"@nextui-org/card": "^2.2.8",
-		"@nextui-org/code": "^2.2.5",
-		"@nextui-org/input": "^2.4.7",
-		"@nextui-org/kbd": "^2.2.5",
-		"@nextui-org/link": "^2.2.6",
-		"@nextui-org/listbox": "^2.3.8",
-		"@nextui-org/navbar": "^2.2.7",
-		"@nextui-org/snippet": "^2.2.9",
-		"@nextui-org/switch": "^2.2.7",
-		"@nextui-org/system": "^2.4.5",
-		"@nextui-org/theme": "^2.4.4",
-		"@react-aria/ssr": "3.9.4",
-		"@react-aria/visually-hidden": "3.8.12",
-		"class-variance-authority": "^0.7.0",
 		"clsx": "^2.1.1",
-		"cross-spawn": "^7.0.6",
-		"framer-motion": "^11.15.0",
-		"intl-messageformat": "^10.5.0",
-		"lucide-react": "^0.454.0",
-		"nanoid": "^5.0.9",
 		"next": "^14.2.21",
-		"next-seo": "^6.6.0",
-		"next-themes": "^0.2.1",
 		"react": "18.3.1",
 		"react-dom": "18.3.1",
 		"tailwind-merge": "^2.5.4",
-		"tailwindcss-animate": "^1.0.7"
+		"geist": "^1.3.1"
 	},
 	"devDependencies": {
 		"@types/node": "20.5.7",
@@ -57,7 +35,6 @@
 		"eslint-plugin-unused-imports": "4.1.4",
 		"postcss": "^8.4.47",
 		"prettier": "3.3.3",
-		"tailwind-variants": "0.1.20",
 		"tailwindcss": "^3.4.14",
 		"typescript": "5.6.3"
 	}
