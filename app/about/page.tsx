@@ -4,7 +4,7 @@ import { Button } from "@/components/button";
 import { Mark } from "@/components/mark";
 import { Section, SectionHeader } from "@/components/section";
 import { pageMetadata } from "@/lib/metadata";
-import portrait from "@/public/joshworley.jpg";
+import portrait from "@/public/josh-worley.jpg";
 
 export const metadata = pageMetadata({
   title: "About",
