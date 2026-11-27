@@ -1,4 +1,5 @@
 import clsx from "clsx";
+import { twMerge } from "tailwind-merge";
 
 type MarkVariant = "triangle" | "triangle-black" | "eye" | "op-art";
 
@@ -45,7 +46,7 @@ export function Mark({
 }) {
   if (variant === "op-art") {
     return (
-      <div aria-label={label} className={clsx("relative", className)} role="img">
+      <div aria-label={label} className={twMerge("relative", className)} role="img">
         <div className="absolute inset-[1%] overflow-hidden rounded-full bg-obsidian">
           <img
             alt=""
@@ -74,7 +75,7 @@ export function Mark({
   const l = LAYERS[variant];
 
   return (
-    <div aria-label={label} className={clsx("relative", className)} role="img">
+    <div aria-label={label} className={twMerge("relative", className)} role="img">
       <img alt="" className="absolute inset-0 block size-full" src={l.frame} />
       <img
         alt=""

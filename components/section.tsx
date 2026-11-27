@@ -46,10 +46,7 @@ export function SectionHeader({
 }) {
   return (
     <div
-      className={clsx(
-        "flex flex-col gap-8 md:flex-row md:items-end md:justify-between",
-        className,
-      )}
+      className={clsx("flex flex-col gap-8 md:flex-row md:items-end md:justify-between", className)}
     >
       <div className="flex flex-col gap-[14px] md:gap-5">
         <p className={clsx("t-label", labelClassName)}>{label}</p>
@@ -98,6 +95,60 @@ export function Placeholder({
       )}
     >
       <p className="t-label">{label}</p>
+    </div>
+  );
+}
+
+/** Full-width Ultraviolet call-to-action band ("For venues", "Booking"). */
+export function CtaBand({
+  label,
+  title,
+  body,
+  action,
+}: {
+  label: string;
+  title: string;
+  body: string;
+  action: React.ReactNode;
+}) {
+  return (
+    <Section className="section-y" tone="ultraviolet">
+      <div className="flex flex-col gap-8 md:flex-row md:items-end md:justify-between">
+        <div className="flex flex-col gap-[14px] md:gap-5">
+          <p className="t-label">{label}</p>
+          <h2 className="t-headline max-w-[760px]">{title}</h2>
+          <p className="t-body-l max-w-[620px]">{body}</p>
+        </div>
+        <div className="shrink-0">{action}</div>
+      </div>
+    </Section>
+  );
+}
+
+/** Poster or artwork tile with a name and a mono meta line (Events archive, Sound grid). */
+export function MediaCard({
+  label,
+  title,
+  meta,
+  aspect,
+}: {
+  label: string;
+  title: string;
+  meta: string;
+  aspect: "poster" | "square";
+}) {
+  return (
+    <div className="flex min-w-0 flex-col gap-[10px] md:gap-[14px]">
+      <Placeholder
+        dark
+        className={clsx(
+          "w-full rounded-2xl",
+          aspect === "poster" ? "aspect-[305/406]" : "aspect-square",
+        )}
+        label={label}
+      />
+      <p className="t-ui">{title}</p>
+      <p className="t-label">{meta}</p>
     </div>
   );
 }

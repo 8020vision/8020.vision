@@ -30,7 +30,7 @@ export function Footer() {
     <footer className="border-t border-bone bg-obsidian text-bone">
       <div className="mx-auto flex max-w-page flex-col gap-10 px-5 pb-8 pt-14 md:gap-20 md:px-10 md:pb-12 md:pt-24 lg:px-20">
         <div className="flex flex-col gap-10 lg:flex-row lg:items-start lg:justify-between">
-          <div className="flex flex-col gap-5">
+          <div className="flex scroll-mt-24 flex-col gap-5" id="newsletter">
             <Link aria-label="80/20 VISION home" className="self-start" href="/">
               <Lockup className="text-[12.24px] md:text-[15.12px]" />
             </Link>
