@@ -25,7 +25,9 @@ export function Section({
 }) {
   return (
     <section className={clsx(tones[tone], className)} id={id}>
-      <div className={clsx("section-x mx-auto max-w-page", innerClassName)}>{children}</div>
+      <div className={clsx("section-x mx-auto max-w-page", innerClassName)}>
+        {children}
+      </div>
     </section>
   );
 }
@@ -46,7 +48,10 @@ export function SectionHeader({
 }) {
   return (
     <div
-      className={clsx("flex flex-col gap-8 md:flex-row md:items-end md:justify-between", className)}
+      className={clsx(
+        "flex flex-col gap-8 md:flex-row md:items-end md:justify-between",
+        className,
+      )}
     >
       <div className="flex flex-col gap-[14px] md:gap-5">
         <p className={clsx("t-label", labelClassName)}>{label}</p>
@@ -62,16 +67,19 @@ export function PageHero({
   label,
   title,
   intro,
+  children,
 }: {
   label: string;
   title: React.ReactNode;
   intro: React.ReactNode;
+  children?: React.ReactNode;
 }) {
   return (
     <Section innerClassName="flex flex-col gap-5 pb-[72px] pt-[133px] md:gap-7 md:pb-[120px] md:pt-[213px]">
       <p className="t-label text-lilac">{label}</p>
       <h1 className="t-display max-w-[1100px]">{title}</h1>
       <p className="t-body-l max-w-[620px]">{intro}</p>
+      {children}
     </Section>
   );
 }

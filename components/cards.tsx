@@ -1,7 +1,9 @@
+import type { Project } from "@/lib/site";
+
+import Image from "next/image";
 import Link from "next/link";
 
 import { Placeholder } from "@/components/section";
-import type { Project } from "@/lib/site";
 
 /** "Web / Card / Discipline". */
 export function DisciplineCard({
@@ -26,7 +28,9 @@ export function DisciplineCard({
       <div className="flex-1" />
       <h3 className="t-title">{title}</h3>
       <p className="t-body">{body}</p>
-      <p className="t-ui transition-transform group-hover:translate-x-1">{link}</p>
+      <p className="t-ui transition-transform group-hover:translate-x-1">
+        {link}
+      </p>
     </Link>
   );
 }
@@ -35,7 +39,23 @@ export function DisciplineCard({
 export function WorkCard({ project }: { project: Project }) {
   const body = (
     <>
-      <Placeholder className="h-[260px] w-full rounded-3xl md:h-[304px]" label="[Project image]" />
+      {project.image ? (
+        <div className="h-[260px] w-full overflow-hidden rounded-3xl bg-obsidian md:h-[304px]">
+          <Image
+            alt={project.image.alt}
+            className="h-full w-full object-cover"
+            height={project.image.height}
+            sizes="(min-width: 1024px) 405px, (min-width: 768px) 50vw, 100vw"
+            src={project.image.src}
+            width={project.image.width}
+          />
+        </div>
+      ) : (
+        <Placeholder
+          className="h-[260px] w-full rounded-3xl md:h-[304px]"
+          label="[Project image]"
+        />
+      )}
       <p className="t-label text-ultraviolet">{project.meta}</p>
       <h3 className="t-title">{project.title}</h3>
       <p className="t-body">{project.line}</p>
