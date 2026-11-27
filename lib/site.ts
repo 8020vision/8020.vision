@@ -71,7 +71,7 @@ export const projects: Project[] = [
       liveUrl: "https://calmaster.vercel.app/",
       cover: {
         src: "/work/calmaster/cover.webp",
-        alt: "CalMaster Explore view: a week of LA events stacked by start time",
+        alt: "CalMaster Explore view: the LA venue map above a week of events, Nov 30 to Dec 6",
         width: 2560,
         height: 1440,
       },
