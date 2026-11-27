@@ -3,7 +3,6 @@ import { Suspense } from "react";
 import { ContactForm } from "@/components/contact-form";
 import { Section } from "@/components/section";
 import { pageMetadata } from "@/lib/metadata";
-import { siteConfig } from "@/lib/site";
 
 export const metadata = pageMetadata({
   title: "Start a project",
@@ -31,17 +30,6 @@ export default function ContactPage() {
         <p className="t-label">Also</p>
         {/* TODO: studio email address. */}
         <p className="t-ui">[email address]</p>
-        {siteConfig.social.map((s) => (
-          <a
-            key={s.label}
-            className="t-ui self-start transition-opacity hover:opacity-70"
-            href={s.href}
-            rel="noreferrer"
-            target="_blank"
-          >
-            {s.label} ↗
-          </a>
-        ))}
       </div>
     </Section>
   );
