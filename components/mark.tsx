@@ -1,4 +1,3 @@
-import clsx from "clsx";
 import { twMerge } from "tailwind-merge";
 
 type MarkVariant = "triangle" | "triangle-black" | "eye" | "op-art";
@@ -54,12 +53,7 @@ export function Mark({
             src="/brand/opart-stripes.svg"
           />
         </div>
-        <svg
-          aria-hidden
-          className="absolute inset-0 size-full"
-          fill="none"
-          viewBox="0 0 640 640"
-        >
+        <svg aria-hidden className="absolute inset-0 size-full" fill="none" viewBox="0 0 640 640">
           <circle cx="320" cy="320" r="307.2" stroke="#f2f0eb" strokeWidth="12.8" />
         </svg>
         <img alt="" className="absolute inset-0 block size-full" src="/brand/opart-eye.svg" />
@@ -91,15 +85,19 @@ export function Mark({
  * "80/20 VISION · D / Lockup / Horizontal / Unbounded / Dark".
  * Every measurement scales with the font size, so pass a text size class.
  */
-export function Lockup({ className }: { className?: string }) {
+export function Lockup({ className, light }: { className?: string; light?: boolean }) {
   return (
     <span
-      className={clsx(
+      className={twMerge(
         "inline-flex items-center gap-[0.611em] rounded-[0.556em] bg-obsidian px-[1em] py-[0.778em] font-display font-bold leading-none tracking-[-0.02em] text-bone",
         className,
       )}
     >
-      <Mark className="size-[1.653em] shrink-0" label="" variant="triangle" />
+      <Mark
+        className="size-[1.653em] shrink-0"
+        label=""
+        variant={light ? "triangle-black" : "triangle"}
+      />
       <span className="whitespace-nowrap">80/20 VISION</span>
     </span>
   );
