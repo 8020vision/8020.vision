@@ -1,51 +1,40 @@
 import "@/styles/globals.css";
-import { Metadata, Viewport } from "next";
+import type { Metadata, Viewport } from "next";
 import clsx from "clsx";
-import { Providers } from "./providers";
-import { siteConfig } from "@/config/site";
-import { fontSans } from "@/config/fonts";
-import { Navbar } from "@/components/navbar";
-import Footer from "@/components/sections/footer";
+
+import { geistMono, geistSans, instrumentSerif, michroma, unbounded } from "./fonts";
+
+import { Footer } from "@/components/footer";
+import { Nav } from "@/components/nav";
+import { pageMetadata } from "@/lib/metadata";
+import { siteConfig } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: {
-    default: siteConfig.name,
-    template: `%s - ${siteConfig.name}`,
-  },
-  description: siteConfig.description,
-  icons: {
-    icon: "/favicon.ico",
-  },
+  metadataBase: new URL(siteConfig.url),
+  ...pageMetadata({ path: "/", og: "home" }),
+  icons: { icon: "/favicon.ico" },
 };
 
 export const viewport: Viewport = {
-  themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "white" },
-    { media: "(prefers-color-scheme: dark)", color: "black" },
-  ],
+  themeColor: "#0a0a0b",
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html suppressHydrationWarning lang="en">
-      <head />
-      <body
-        className={clsx(
-          "min-h-screen bg-background font-sans antialiased",
-          fontSans.variable
-        )}
-      >
-        <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
-          <div className="relative flex flex-col h-screen dark:bg-gradient-dark bg-gradient-light overflow-auto">
-            <Navbar />
-            <main>{children}</main>
-            <Footer />
-          </div>
-        </Providers>
+    <html
+      className={clsx(
+        geistSans.variable,
+        geistMono.variable,
+        unbounded.variable,
+        michroma.variable,
+        instrumentSerif.variable,
+      )}
+      lang="en"
+    >
+      <body className="min-h-screen bg-obsidian font-sans text-bone">
+        <Nav />
+        <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );
