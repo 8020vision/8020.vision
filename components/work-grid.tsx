@@ -7,13 +7,15 @@ import { WorkCard } from "@/components/cards";
 import { type Discipline, disciplines, projects } from "@/lib/site";
 
 export function WorkGrid() {
+  // Only offer filters that match at least one project.
+  const filters = disciplines.filter((d) => projects.some((p) => p.disciplines.includes(d)));
   const [filter, setFilter] = useState<Discipline | "All">("All");
   const shown = filter === "All" ? projects : projects.filter((p) => p.disciplines.includes(filter));
 
   return (
     <div className="flex flex-col gap-8 md:gap-12">
       <div aria-label="Filter work" className="flex flex-wrap gap-[10px]" role="group">
-        {(["All", ...disciplines] as const).map((d) => (
+        {(["All", ...filters] as const).map((d) => (
           <button
             key={d}
             aria-pressed={filter === d}

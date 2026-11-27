@@ -54,30 +54,6 @@ export const projects: Project[] = [
     hasCaseStudy: true,
     featured: true,
   },
-  {
-    slug: "client-design-1",
-    title: "[Project name]",
-    meta: "[Client] · Design · [Year]",
-    line: "The 20% we found, in one line.",
-    disciplines: ["Design"],
-    hasCaseStudy: false,
-  },
-  {
-    slug: "client-software-1",
-    title: "[Project name]",
-    meta: "[Client] · Software · [Year]",
-    line: "The 20% we found, in one line.",
-    disciplines: ["Software"],
-    hasCaseStudy: false,
-  },
-  {
-    slug: "client-design-2",
-    title: "[Project name]",
-    meta: "[Client] · Design · [Year]",
-    line: "The 20% we found, in one line.",
-    disciplines: ["Design"],
-    hasCaseStudy: false,
-  },
 ];
 
 export const disciplines: Discipline[] = ["Design", "Software", "Events", "Music"];
