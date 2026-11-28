@@ -60,7 +60,7 @@ export const projects: Project[] = [
     featured: true,
     image: {
       src: "/work/calmaster/card.webp",
-      alt: "CalMaster week view of LA events, Nov 23 to 29",
+      alt: "CalMaster Explore view: LA venue map above a week of events, Nov 30 to Dec 6",
       width: 1600,
       height: 1200,
     },
