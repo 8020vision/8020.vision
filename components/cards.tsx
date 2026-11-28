@@ -12,19 +12,34 @@ export function DisciplineCard({
   body,
   link,
   href,
+  icon,
 }: {
   number: string;
   title: string;
   body: string;
   link: string;
   href: string;
+  /** Square ink icon drawn on Graphite, so it sits flush on the card. */
+  icon?: { src: string; alt: string };
 }) {
   return (
     <Link
-      className="group flex h-[240px] flex-1 flex-col gap-4 rounded-3xl border border-bone bg-graphite p-8 text-bone transition-colors hover:bg-[#232327] md:h-[360px]"
+      className="group flex min-h-[240px] flex-1 flex-col gap-4 rounded-3xl border border-bone bg-graphite p-8 text-bone transition-colors hover:bg-[#232327] md:h-[400px]"
       href={href}
     >
-      <p className="t-label text-lilac">{number}</p>
+      <div className="flex items-start justify-between gap-4">
+        <p className="t-label text-lilac">{number}</p>
+        {icon ? (
+          <Image
+            alt={icon.alt}
+            className="size-24 rounded-full transition-transform duration-300 group-hover:rotate-6 md:size-32"
+            height={400}
+            sizes="128px"
+            src={icon.src}
+            width={400}
+          />
+        ) : null}
+      </div>
       <div className="flex-1" />
       <h3 className="t-title">{title}</h3>
       <p className="t-body">{body}</p>
