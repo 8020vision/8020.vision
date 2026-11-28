@@ -76,6 +76,14 @@ export default function Home() {
 
       {/* The idea */}
       <Section className="section-y" tone="bone">
+        <Image
+          alt="The 80/20 VISION mascot, a stick figure with the triangle eye for a head, stands on a mountain peak seen from behind, pointing at a sunrise ringed with op-art stripes."
+          className="mb-12 h-auto w-full rounded-3xl md:mb-20"
+          height={1040}
+          sizes="(min-width: 1440px) 1280px, 100vw"
+          src="/illustrations/see-the-20-summit.png"
+          width={2400}
+        />
         <div className="flex flex-col gap-8 lg:flex-row lg:gap-20">
           <div className="flex flex-1 flex-col gap-8 md:gap-5">
             <p className="t-label text-ultraviolet">01 — The idea</p>
@@ -90,14 +98,6 @@ export default function Home() {
             into it.
           </p>
         </div>
-        <Image
-          alt="The 80/20 VISION mascot, a stick figure with the triangle eye for a head, stands on a mountain peak seen from behind, pointing at a sunrise ringed with op-art stripes."
-          className="mt-12 h-auto w-full rounded-3xl md:mt-20"
-          height={1040}
-          sizes="(min-width: 1440px) 1280px, 100vw"
-          src="/illustrations/see-the-20-summit.png"
-          width={2400}
-        />
       </Section>
 
       {/* What we do */}
