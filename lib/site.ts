@@ -2,13 +2,12 @@ export const siteConfig = {
   name: "80/20 VISION",
   url: "https://www.8020.vision",
   description:
-    "80/20 VISION is an independent creative studio for design, software, events and sound. We find the vital 20% and obsess over it until it is right.",
-  tagline: "DESIGN · SOFTWARE · EVENTS · MUSIC",
+    "80/20 VISION is an independent creative studio for design, software and events. We find the vital 20% and obsess over it until it is right.",
+  tagline: "DESIGN · SOFTWARE · EVENTS",
   nav: [
     { label: "Work", href: "/work" },
     { label: "Services", href: "/services" },
     { label: "Events", href: "/events" },
-    { label: "Sound", href: "/sound" },
     { label: "About", href: "/about" },
   ],
 };
