@@ -79,14 +79,24 @@ export function Nav() {
 
   return (
     <header ref={header} className="fixed inset-x-0 top-0 z-30">
-      {/* Faded glass: blurred, tinted backdrop that dissolves into the page below. No border. */}
+      {/*
+        Faded glass: a blurred, tinted bar plus a soft fade below it. No border.
+        The blur layer has no mask: WebKit drops backdrop-filter on masked elements,
+        which let page content (like the hero buttons) show through the bar on iOS.
+      */}
       <div
         aria-hidden
         className={clsx(
-          "pointer-events-none absolute inset-x-0 top-0 h-[calc(100%+20px)] bg-gradient-to-b backdrop-blur-md backdrop-saturate-150 transition-[opacity,background-color] duration-300 [mask-image:linear-gradient(to_bottom,black_45%,transparent)]",
-          showLight
-            ? "from-bone/70 via-bone/40 to-bone/0"
-            : "from-obsidian/50 via-obsidian/25 to-obsidian/0",
+          "pointer-events-none absolute inset-0 backdrop-blur-md backdrop-saturate-150 transition-[opacity,background-color] duration-300",
+          showLight ? "bg-bone/80" : "bg-obsidian/75",
+          scrolled && !open ? "opacity-100" : "opacity-0",
+        )}
+      />
+      <div
+        aria-hidden
+        className={clsx(
+          "pointer-events-none absolute inset-x-0 top-full h-5 bg-gradient-to-b transition-opacity duration-300",
+          showLight ? "from-bone/80 to-bone/0" : "from-obsidian/75 to-obsidian/0",
           scrolled && !open ? "opacity-100" : "opacity-0",
         )}
       />
