@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 import { Button } from "@/components/button";
 import { DisciplineCard, WorkCard } from "@/components/cards";
 import { Glows, HOME_GLOWS } from "@/components/glow";
@@ -84,6 +86,14 @@ export default function Home() {
             into it.
           </p>
         </div>
+        <Image
+          alt="The 80/20 VISION mascot, a stick figure with the triangle eye for a head, stands on a mountain peak seen from behind, pointing at a sunrise ringed with op-art stripes."
+          className="mt-12 h-auto w-full rounded-3xl md:mt-20"
+          height={1040}
+          sizes="(min-width: 1440px) 1280px, 100vw"
+          src="/illustrations/see-the-20-summit.png"
+          width={2400}
+        />
       </Section>
 
       {/* What we do */}
@@ -102,6 +112,14 @@ export default function Home() {
 
       {/* Selected work */}
       <Section className="section-y" innerClassName="flex flex-col gap-8 md:gap-16" tone="stone">
+        <Image
+          alt="The 80/20 VISION mascot rides a rocket diving into an op-art warp tunnel, pointing at the star in its center."
+          className="h-auto w-full rounded-3xl"
+          height={1040}
+          sizes="(min-width: 1440px) 1280px, 100vw"
+          src="/illustrations/selected-work-rocket.png"
+          width={2400}
+        />
         <SectionHeader
           label="03 — Selected work"
           labelClassName="text-ultraviolet"
