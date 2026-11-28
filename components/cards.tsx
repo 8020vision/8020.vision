@@ -12,40 +12,40 @@ export function DisciplineCard({
   body,
   link,
   href,
-  icon,
+  image,
 }: {
   number: string;
   title: string;
   body: string;
   link: string;
   href: string;
-  /** Square ink icon drawn on Graphite, so it sits flush on the card. */
-  icon?: { src: string; alt: string };
+  /** 16:10 window picture drawn on Graphite with its own Bone frame. */
+  image?: { src: string; alt: string };
 }) {
   return (
     <Link
-      className="group flex min-h-[240px] flex-1 flex-col gap-4 rounded-3xl border border-bone bg-graphite p-8 text-bone transition-colors hover:bg-[#232327] md:h-[400px]"
+      className="group flex h-full flex-1 flex-col gap-4 rounded-3xl border border-bone bg-graphite p-5 text-bone transition-colors hover:bg-[#232327] md:p-6"
       href={href}
     >
-      <div className="flex items-start justify-between gap-4">
+      {image ? (
+        <Image
+          alt={image.alt}
+          className="h-auto w-full transition-transform duration-300 group-hover:scale-[1.02]"
+          height={600}
+          sizes="(min-width: 1440px) 400px, (min-width: 768px) 33vw, 100vw"
+          src={image.src}
+          width={960}
+        />
+      ) : null}
+      <div className="flex flex-1 flex-col gap-4 px-3 pb-3 pt-2">
         <p className="t-label text-lilac">{number}</p>
-        {icon ? (
-          <Image
-            alt={icon.alt}
-            className="size-24 rounded-full transition-transform duration-300 group-hover:rotate-6 md:size-32"
-            height={400}
-            sizes="128px"
-            src={icon.src}
-            width={400}
-          />
-        ) : null}
+        <div className="flex-1" />
+        <h3 className="t-title">{title}</h3>
+        <p className="t-body">{body}</p>
+        <p className="t-ui transition-transform group-hover:translate-x-1">
+          {link}
+        </p>
       </div>
-      <div className="flex-1" />
-      <h3 className="t-title">{title}</h3>
-      <p className="t-body">{body}</p>
-      <p className="t-ui transition-transform group-hover:translate-x-1">
-        {link}
-      </p>
     </Link>
   );
 }

@@ -1,5 +1,4 @@
 import { Button } from "@/components/button";
-import { EVENTS_GLOWS, Glows } from "@/components/glow";
 import { Mark } from "@/components/mark";
 import { CtaBand, MediaCard, Section, SectionHeader } from "@/components/section";
 import { pageMetadata } from "@/lib/metadata";
@@ -52,10 +51,10 @@ export default function EventsPage() {
       {/* Hero */}
       <section className="relative overflow-hidden bg-obsidian text-bone">
         <div className="section-x relative mx-auto max-w-page pb-[72px] pt-[100px] lg:h-[900px] lg:pb-0 lg:pt-0">
-          <div className="relative mx-auto size-[240px] md:size-[400px] lg:absolute lg:right-[100px] lg:top-[190px] lg:mx-0 lg:size-[min(460px,34vw)]">
-            <Glows glows={EVENTS_GLOWS} />
-            <Mark className="absolute inset-0" variant="eye" />
-          </div>
+          <Mark
+            className="mx-auto size-[300px] md:size-[440px] lg:absolute lg:right-5 lg:top-[130px] lg:mx-0 lg:size-[min(640px,44vw)]"
+            variant="op-art"
+          />
           <div className="relative mt-14 flex flex-col gap-5 md:gap-7 lg:mt-0 lg:pt-[260px]">
             <p className="t-label text-lilac">80/20 VISION presents</p>
             <h1 className="t-display max-w-[720px] lg:max-w-[min(720px,52vw)]">
