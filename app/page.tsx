@@ -14,9 +14,9 @@ const disciplines = [
   {
     number: "01",
     title: "Design",
-    icon: {
-      src: "/illustrations/services/design.png",
-      alt: "Ink badge of a pencil drawing a triangle over op-art swirls.",
+    image: {
+      src: "/illustrations/services/design-window.png",
+      alt: "A pencil inks a triangle on a drafting sheet, framed by op-art stripes.",
     },
     body: "Brands, interfaces and visual systems with one clear idea.",
     link: "Services →",
@@ -25,9 +25,9 @@ const disciplines = [
   {
     number: "02",
     title: "Software",
-    icon: {
-      src: "/illustrations/services/software.png",
-      alt: "Ink badge of a computer screen showing the triangle eye.",
+    image: {
+      src: "/illustrations/services/software-window.png",
+      alt: "A computer monitor shows the triangle's eye, framed by op-art stripes.",
     },
     body: "Products built around the feature that actually matters.",
     link: "Services →",
@@ -36,9 +36,9 @@ const disciplines = [
   {
     number: "03",
     title: "Events",
-    icon: {
-      src: "/illustrations/services/events.png",
-      alt: "Ink badge of a stage spotlight with a star.",
+    image: {
+      src: "/illustrations/services/events-window.png",
+      alt: "A turntable spins a record under op-art stripes, with music notes overhead.",
     },
     body: "Nights designed for focus: sound, light, crowd.",
     link: "Events →",
