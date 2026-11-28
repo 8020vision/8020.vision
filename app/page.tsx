@@ -14,6 +14,7 @@ const disciplines = [
   {
     number: "01",
     title: "Design",
+    icon: { src: "/illustrations/services/design.png", alt: "Ink badge of a pencil drawing a triangle over op-art swirls." },
     body: "Brands, interfaces and visual systems with one clear idea.",
     link: "Services →",
     href: "/services#design",
@@ -21,6 +22,7 @@ const disciplines = [
   {
     number: "02",
     title: "Software",
+    icon: { src: "/illustrations/services/software.png", alt: "Ink badge of a computer screen showing the triangle eye." },
     body: "Products built around the feature that actually matters.",
     link: "Services →",
     href: "/services#software",
@@ -28,6 +30,7 @@ const disciplines = [
   {
     number: "03",
     title: "Events",
+    icon: { src: "/illustrations/services/events.png", alt: "Ink badge of a stage spotlight with a star." },
     body: "Nights designed for focus: sound, light, crowd.",
     link: "Events →",
     href: "/events",
@@ -35,6 +38,7 @@ const disciplines = [
   {
     number: "04",
     title: "Music",
+    icon: { src: "/illustrations/services/music.png", alt: "Ink badge of a spinning record on a turntable." },
     body: "Records and live sets with the same obsessive craft.",
     link: "Sound →",
     href: "/sound",
