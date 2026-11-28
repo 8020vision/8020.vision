@@ -18,7 +18,6 @@ const columns = [
     title: "Nights",
     links: [
       { label: "Events", href: "/events" },
-      { label: "Sound", href: "/sound" },
     ],
   },
 ];

@@ -9,7 +9,7 @@ import portrait from "@/public/josh-worley.jpg";
 export const metadata = pageMetadata({
   title: "About",
   description:
-    "80/20 VISION is an independent creative studio for design, software, events and sound, named for the Pareto principle. We exist to find the vital 20%.",
+    "80/20 VISION is an independent creative studio for design, software and events, named for the Pareto principle. We exist to find the vital 20%.",
   path: "/about",
   og: "about",
 });
@@ -57,7 +57,7 @@ export default function AboutPage() {
           <p className="t-label text-lilac">About</p>
           <h1 className="t-display max-w-[700px]">Focus on the vital 20%.</h1>
           <p className="t-body max-w-[620px] md:text-[21px]">
-            80/20 VISION is an independent creative studio for design, software, events and sound.
+            80/20 VISION is an independent creative studio for design, software and events.
             The name comes from the Pareto principle: roughly 80% of results come from 20% of the
             effort. We exist to find that 20%, whether it is the one feature that makes a product,
             the one sound that makes a night, or the one idea that makes a brand.
